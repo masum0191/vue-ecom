@@ -10,7 +10,11 @@
       <AppCart/>
     </div>
   </div>
+  
 </div>
+<footer>
+    <p class="text-center bg-dark">Vue-Ecom &copy; 2025</p>
+  </footer>
 </template>
 
 <script>
