@@ -1,13 +1,13 @@
 <template>
   <AppNavbar />
   <AppSlider/>
-  <div class="container">
+  <div class="container p-3">
   <div class="row">
     <div class="col-md-10">
       <AppInventory/>
     </div>
     <div class="col-md-2">
-
+      <AppCart/>
     </div>
   </div>
 </div>
@@ -17,13 +17,15 @@
 import AppNavbar from './components/Navber.vue';
 import AppSlider from './components/Slider.vue';
 import AppInventory from './components/Inventory.vue';
+import AppCart from './components/Cart.vue';
 
 export default {
   name: 'App',
   components: {
     AppNavbar,
     AppSlider,
-    AppInventory    
+    AppInventory,
+    AppCart   
   }
 }
 </script>
